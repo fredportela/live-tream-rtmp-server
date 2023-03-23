@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
 	"dev": "nodemon app.js",
-	"prd": "pm2 stop telegram-bot && pm2 start index.js --name telegram-bot",
+	"prd": "pm2 stop live-tream-rtmp && pm2 start index.js --name live-tream-rtmp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
