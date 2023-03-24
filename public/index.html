@@ -15,7 +15,7 @@
         var videoElement = document.getElementById('player');
         var flvPlayer = flvjs.createPlayer({
             type: 'flv',
-            url: 'http://localhost:8000/live/teste-transmissao-fred.flv'
+            url: '/live/teste-transmissao-fred.flv'
         });
         flvPlayer.attachMediaElement(videoElement);
         flvPlayer.load();
