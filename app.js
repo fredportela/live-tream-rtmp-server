@@ -6,8 +6,8 @@ const config = {
     port: 1935,
     chunk_size: 60000,
     gop_cache: false,
-    ping: 30,
-    ping_timeout: 60,
+    ping: 15,
+    ping_timeout: 30,
   },
   http: {
     port: 8000,
