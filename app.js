@@ -119,7 +119,15 @@ const config = {
         hlsFlags: '[hls_time=10:hls_list_size=0:hls_flags=delete_segments]',
       },
     ],
-  }
+  },
+  auth: {
+    play: true,
+    publish: true,
+    secret: 'nodemedia2017privatekey',
+    api : true,
+    api_user: 'admin',
+    api_pass: 'admin',
+  },
 };
 
 var nms = new NodeMediaServer(config)
