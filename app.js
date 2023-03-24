@@ -1,4 +1,5 @@
 const NodeMediaServer = require('node-media-server');
+require('dotenv').config();
 
 const config = {
   rtmp: {
@@ -14,7 +15,7 @@ const config = {
     allow_origin: '*'
   },
   trans: {
-    ffmpeg: 'D:/MeusSites/javascript/ffmpeg/bin/ffmpeg.exe',
+    ffmpeg: process.env.FFMPEG_BIN,
     tasks: [
       {
         app: 'live',
