@@ -121,7 +121,7 @@ const config = {
     ],
   },
   auth: {
-    play: true,
+    play: false,
     publish: true,
     secret: 'nodemedia2017privatekey',
     api : true,
